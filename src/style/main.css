@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+main{
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url("https://www.rammaheshwari.com/assets/svg/common-bg.svg");
+    width: 100%;
+}
+.projects div:nth-child(1){
+  background-image:url("https://t3.ftcdn.net/jpg/07/15/23/76/360_F_715237623_WhO9EcIUBx1IshiL9fLTP2LmpAOBGGIx.jpg") ;
+  background-size: cover;
+}
+.projects div div:nth-child(2){
+  background-image: url("https://wallpapers.com/images/hd/beautiful-tan-modern-furniture-1p8lqahjzvgac2vw.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.projects div div:nth-child(3){
+  background-image: url("https://st2.depositphotos.com/3300441/11588/i/450/depositphotos_115883694-stock-photo-chinese-food-blank-background.jpg");
+  background-size: cover;
+}
+.projects div div:nth-child(4){
+  background-image: url("https://img.freepik.com/free-vector/flat-design-ui-ux-background_23-2149093996.jpg");
+  background-size: cover;
+}
+.projects div div:nth-child(5){
+  background-image: url("https://img.freepik.com/premium-photo/cinematic-shadows-moody-studio-intense-portrait-shots_839035-881758.jpg");
+  background-size: cover;
+}
+.projects div div:nth-child(6){
+  background-image: url("https://img.freepik.com/free-vector/living-room-interior-design-realistic-vector-background-sofa-window-betroom_528282-230.jpg");
+  background-size: cover;
+}
+.website:hover button{
+  display: block;
+}
+.projects div:nth-child(1):hover{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://t3.ftcdn.net/jpg/07/15/23/76/360_F_715237623_WhO9EcIUBx1IshiL9fLTP2LmpAOBGGIx.jpg") !important;
+  background-size: cover !important;
+}
+.projects div div:nth-child(2):hover{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wallpapers.com/images/hd/beautiful-tan-modern-furniture-1p8lqahjzvgac2vw.jpg") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+.projects div div:nth-child(3):hover{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://st2.depositphotos.com/3300441/11588/i/450/depositphotos_115883694-stock-photo-chinese-food-blank-background.jpg") !important;
+  background-size: cover !important;
+}
+.projects div div:nth-child(4):hover{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/free-vector/flat-design-ui-ux-background_23-2149093996.jpg") !important;
+  background-size: cover !important;
+}
+.projects div div:nth-child(5):hover{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/premium-photo/cinematic-shadows-moody-studio-intense-portrait-shots_839035-881758.jpg") !important;
+  background-size: cover !important;
+}
+.projects div div:nth-child(6):hover{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/free-vector/living-room-interior-design-realistic-vector-background-sofa-window-betroom_528282-230.jpg") !important;
+  background-size: cover !important;
+}
